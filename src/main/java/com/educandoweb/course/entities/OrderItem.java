@@ -30,7 +30,7 @@ public class OrderItem {
 		this.price = price;
 	}
 	
-	@JsonIgnore
+	@JsonIgnore 
 	public Order getOrder() {
 		return id.getOrder();
 	}
